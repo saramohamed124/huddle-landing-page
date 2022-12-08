@@ -108,14 +108,18 @@ article .text-content {
 }
 
 article .text-content h1 {
-    font-size: 24px;
+    font-size: 35px;
     line-height: 1.6;
     margin: 0;
 }
-
+@media(max-width:767px) {
+    article .text-content h1 {
+    font-size: 24px;
+    }
+}
 article .text-content p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 10.3px;
+    font-size: 15px;
     line-height: 1.8;
     padding: 15px 0;
 }
@@ -146,6 +150,7 @@ article .text-content button:hover {
 
 /* Start Footer */
 footer {
+    width:100%;
     display: flex;
     justify-content: space-between;
 }
